@@ -7,6 +7,12 @@
             OutputStreamWriter BufferedReader StringReader]))
 
 
+(defn swap-k-v [m]
+    (let [ks (keys m)
+          vs (vals m)]
+      (for [k ks v vs]
+        (zipmap v (repeat k)))))
+
 (defn- extract-lines [filename]
   (try
     (let [baos (ByteArrayOutputStream.)]
