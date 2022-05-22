@@ -1,6 +1,7 @@
 {:paths ["src" "resources"]
  :deps
  {org.clojure/clojure {:mvn/version "1.10.3"}
+  org.clojure/data.json {:mvn/version "2.4.0"}
   pdfboxing/pdfboxing {:mvn/version "0.1.14"}
   ;; org.apache.pdfbox/pdfbox {:mvn/version "2.0.24"}
   }}

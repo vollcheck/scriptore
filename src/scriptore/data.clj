@@ -4,90 +4,80 @@
 ;; facilitates text operations for good...
 
 (def shorters {
-:historical [
-"Rdz"
-"Wj"
-"Kpł"
-"Lb"
-"Pwt"
-"Joz"
-"Sdz"
-"Rt"
-"1 Sm"
-"2 Sm"
-"1 Krl"
-"2 Krl"
-"1 Krn"
-"2 Krn"
-"Ezd"
-"Ne"
-"Tb"
-"Jdt"
-"Est"
-"1 Mch"
-"2 Mch"
-"Hi"
-"Ps"
-"Prz"
-"Koh"
-"Pnp"
-"Mdr"
-"Syr"
-]
-
-:prophetic [
-"Iz"
-"Jr"
-"Lm"
-"Ba"
-"Ez"
-"Dn"
-"Oz"
-"Jl"
-"Am"
-"Ab"
-"Jon"
-"Mi"
-"Na"
-"Ha"
-"So"
-"Ag"
-"Za"
-"Ml"
-]
-
-:evangelic [
-"Mt"
-"Mk"
-"Łk"
-"J"
-]
-
-:non-evangelic [
-"Dz"
-"Rz"
-"1 Kor"
-"2 Kor"
-"Ga"
-"Ef"
-"Flp"
-"Kol"
-"1 Tes"
-"2 Tes"
-"1 Tm"
-"2 Tm"
-"Tt"
-"Flm"
-"Hbr"
-"Jk"
-"1 P"
-"2 P"
-"1 J"
-"2 J"
-"3 J"
-"Jud"
-"Ap"
-]})
+"Rdz" :historical
+"Wj" :historical
+"Kpł" :historical
+"Lb" :historical
+"Pwt" :historical
+"Joz" :historical
+"Sdz" :historical
+"Rt" :historical
+"1 Sm" :historical
+"2 Sm" :historical
+"1 Krl" :historical
+"2 Krl" :historical
+"1 Krn" :historical
+"2 Krn" :historical
+"Ezd" :historical
+"Ne" :historical
+"Tb" :historical
+"Jdt" :historical
+"Est" :historical
+"1 Mch" :historical
+"2 Mch" :historical
+"Hi" :historical
+"Ps" :historical
+"Prz" :historical
+"Koh" :historical
+"Pnp" :historical
+"Mdr" :historical
+"Syr" :historical
+"Iz" :prophetic
+"Jr" :prophetic
+"Lm" :prophetic
+"Ba" :prophetic
+"Ez" :prophetic
+"Dn" :prophetic
+"Oz" :prophetic
+"Jl" :prophetic
+"Am" :prophetic
+"Ab" :prophetic
+"Jon" :prophetic
+"Mi" :prophetic
+"Na" :prophetic
+"Ha" :prophetic
+"So" :prophetic
+"Ag" :prophetic
+"Za" :prophetic
+"Ml" :prophetic
+"Mt" :evangelic
+"Mk" :evangelic
+"Łk" :evangelic
+"J" :evangelic
+"Dz" :non-evangelic
+"Rz" :non-evangelic
+"1 Kor" :non-evangelic
+"2 Kor" :non-evangelic
+"Ga" :non-evangelic
+"Ef" :non-evangelic
+"Flp" :non-evangelic
+"Kol" :non-evangelic
+"1 Tes" :non-evangelic
+"2 Tes" :non-evangelic
+"1 Tm" :non-evangelic
+"2 Tm" :non-evangelic
+"Tt" :non-evangelic
+"Flm" :non-evangelic
+"Hbr" :non-evangelic
+"Jk" :non-evangelic
+"1 P" :non-evangelic
+"2 P" :non-evangelic
+"1 J" :non-evangelic
+"2 J" :non-evangelic
+"3 J" :non-evangelic
+"Jud" :non-evangelic
+"Ap" :non-evangelic
+})
 
 (def longers {
 :historical [
