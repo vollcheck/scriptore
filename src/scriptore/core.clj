@@ -1,4 +1,5 @@
 (ns scriptore.core
+  (:gen-class)
   (:require [clojure.string :as str]
             [clojure.pprint :refer [pprint]]
             [clojure.data.json :as json]
