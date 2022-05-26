@@ -1,0 +1,34 @@
+{:title "PRAGNIENIE",
+ :addresses
+ {:historical
+  ["Rdz 3,6.16"
+   "Rdz 4,7"
+   "Wj 20,17"
+   "Lb 11,4.34"
+   "Pwt 8,1-5"
+   "Pwt 20,5nn"
+   "Pwt 28,30"
+   "2Sm 11,2nn"
+   "1Krl 21"
+   "Prz 5,19"
+   "Syr 1,20"
+   "Syr 14,14"],
+  :prophetic
+  ["Iz 58,2" "Iz 65,21" "Dn 13,8.20" "Am 5,11.18" "Am 9,14"],
+  :evangelic
+  ["Mt 5,28" "Mt 15,18" "Łk 12,49n" "Łk 22,15" "J 10,10" "J 14,30"],
+  :non-evangelic
+  ["Rz 6,12"
+   "Rz 7,14"
+   "Rz 8,6"
+   "Rz 13,14"
+   "2Kor 5,8"
+   "2Kor 7,7.11"
+   "Ga 5,16.24"
+   "Ef 4,22"
+   "Flp 1,8.23"
+   "Flp 4,1"
+   "Jk 1,14n"
+   "1J 2,16"
+   "Ap 3,20"
+   "Ap 22,17"]}}

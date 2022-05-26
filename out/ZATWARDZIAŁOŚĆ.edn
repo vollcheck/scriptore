@@ -1,0 +1,33 @@
+{:title "ZATWARDZIAŁOŚĆ",
+ :addresses
+ {:historical
+  ["Wj 4,21"
+   "Wj 7,3.13n.22"
+   "Wj 8,15"
+   "Wj 9,7.12.16.34n"
+   "Wj 10,1.20.27"
+   "Wj 11,10"
+   "Wj 14,4.17n"
+   "Lb 14,11"
+   "Pwt 8,12nn"
+   "Pwt 32,15"
+   "2Krl 17,13n"
+   "Ne 9,16.30"],
+  :prophetic
+  ["Iz 6,9n"
+   "Iz 63,10.17"
+   "Iz 65,2"
+   "Jr 7,25nn"
+   "Jr 13,23"
+   "Ez 36,26n"
+   "Oz 2"
+   "Oz 11,1n"
+   "Am 4,6-11"],
+  :evangelic
+  ["Mt 13,13"
+   "Mk 6,52"
+   "Mk 8,17-21"
+   "Łk 17,26-29"
+   "J 3,19nn"
+   "J 6,42"],
+  :non-evangelic ["Dz 7,51" "Rz 9" "Rz 9,18" "Rz 10,21" "Hbr 3,7n.12"]}}

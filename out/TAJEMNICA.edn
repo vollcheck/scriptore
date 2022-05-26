@@ -1,0 +1,39 @@
+{:title "TAJEMNICA",
+ :addresses
+ {:historical ["Lb 24,4.16" "Mdr 6,22" "Mdr 14,15.23"],
+  :prophetic
+  ["Iz 6,9n"
+   "Iz 41,21-28"
+   "Dn 2"
+   "Dn 2,18n.27.47"
+   "Dn 4-5"
+   "Dn 4,6"
+   "Dn 7-9"
+   "Dn 9"
+   "Dn 10-12"
+   "Am 3,7"],
+  :evangelic ["Mt 13,9.35.43" "Mk 1,15" "Mk 4,11-12.15"],
+  :non-evangelic
+  ["Rz 11,25.33"
+   "Rz 16,25n"
+   "1Kor 1,17-25"
+   "1Kor 2,1"
+   "1Kor 2,2"
+   "1Kor 2,1-2.6-8.10-13.15"
+   "1Kor 3,1n"
+   "1Kor 4,1"
+   "1Kor 14,2"
+   "1Kor 15,20-28.51nn"
+   "Ef 1,9n.15n"
+   "Ef 3,4-10.18n"
+   "Ef 6,19"
+   "Kol 1,9.15nn.20.26-27"
+   "Kol 2,2"
+   "Kol 4,3"
+   "2Tes 2,7"
+   "1Tm 3,9.16"
+   "Ap 1,20"
+   "Ap 10,7"
+   "Ap 17,5.7"
+   "Ap 20,1"
+   "Ap 21"]}}

@@ -1,0 +1,16 @@
+{:title "JĘZYK",
+ :addresses
+ {:historical ["Rdz 11" "Prz 18,21" "Syr 51,2-6"],
+  :prophetic
+  ["Iz 35,6" "Iz 45,24" "Iz 66,18" "Jr 18,18" "Jr 25,8" "So 3,13"],
+  :evangelic ["Mk 7,33-37" "Łk 1,20.64"],
+  :non-evangelic
+  ["Dz 2,1-13"
+   "Dz 10,46"
+   "Dz 19,16"
+   "Flp 2,11"
+   "Jk 1,26"
+   "Jk 3,9"
+   "1J 3,18"
+   "Ap 5,9"
+   "Ap 7,9"]}}

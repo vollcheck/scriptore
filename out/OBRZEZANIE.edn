@@ -1,0 +1,38 @@
+{:title "OBRZEZANIE",
+ :addresses
+ {:historical
+  ["Rdz 17,9-14"
+   "Rdz 21,4"
+   "Rdz 34,14"
+   "Wj 4,24nn.26"
+   "Wj 12,44.48"
+   "Kpł 12,3"
+   "Kpł 19,23"
+   "Kpł 26,41"
+   "Pwt 10,12-22"
+   "Pwt 30,6"
+   "Joz 5,2-9"
+   "Sdz 14,3"
+   "1Sm 17,26.36"
+   "1Krn 10,4"
+   "1Mch 1,15.48.60"
+   "1Mch 2,46"
+   "2Mch 6,10"],
+  :prophetic ["Jr 4,4" "Jr 6,10" "Jr 9,24" "Ez 44,7nn" "Ha 2,16"],
+  :evangelic ["Łk 1,59" "Łk 2,21"],
+  :non-evangelic
+  ["Dz 10-11"
+   "Dz 10,45nn"
+   "Dz 15"
+   "Rz 2,28n"
+   "Rz 3,29"
+   "Rz 4,9-12"
+   "Rz 10,6nn"
+   "Rz 15,8-12"
+   "1Kor 7,19"
+   "Ga 3,6-29"
+   "Ga 5,6.11n"
+   "Ga 6,13.15"
+   "Flp 3,3"
+   "Kol 2,11n.13"
+   "Kol 3,11"]}}

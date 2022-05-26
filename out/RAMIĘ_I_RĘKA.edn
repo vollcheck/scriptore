@@ -1,0 +1,40 @@
+{:title "RAMIĘ_I_RĘKA",
+ :addresses
+ {:historical
+  ["Rdz 2,7"
+   "Rdz 14,22"
+   "Rdz 48,14"
+   "Pwt 4,34"
+   "Pwt 32,40"
+   "2Krl 11,12"
+   "2Krn 32,8"
+   "Ezd 7,9"
+   "Hi 10,8"
+   "Hi 31,27"
+   "Prz 30,4"
+   "Mdr 3,1"],
+  :prophetic
+  ["Iz 1,15"
+   "Iz 5,25"
+   "Iz 40,12"
+   "Iz 49,2"
+   "Iz 50,2"
+   "Iz 52,10"
+   "Iz 53,1"
+   "Iz 65,2"
+   "Iz 66,2"
+   "Jr 2,37"
+   "Jr 18,6"
+   "Jr 32,17"
+   "Ez 1,3"],
+  :evangelic
+  ["Mt 8,3" "Mk 6,2" "Łk 1,51.66" "Łk 23,46" "J 3,35" "J 10,28-29"],
+  :non-evangelic
+  ["Dz 5,12"
+   "Dz 11,21"
+   "Dz 19,6"
+   "Rz 10,21"
+   "1Tm 2,8"
+   "1Tm 4,14"
+   "Hbr 10,31"
+   "Jk 4,8"]}}

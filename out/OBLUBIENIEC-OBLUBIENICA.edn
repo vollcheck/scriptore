@@ -1,0 +1,42 @@
+{:title "OBLUBIENIEC-OBLUBIENICA",
+ :addresses
+ {:historical
+  ["Wj 3,14n"
+   "Wj 34,15n"
+   "Pwt 4,24"
+   "Sdz 2,11-19"
+   "Prz 8,22nn.31"
+   "Pnp 8,6n"
+   "Mdr 7,14.28"
+   "Mdr 8,2.6n.9.21"
+   "Mdr 9,17"
+   "Syr 15,2"],
+  :prophetic
+  ["Iz 1,21"
+   "Iz 47"
+   "Iz 54,4-8"
+   "Iz 61,10"
+   "Iz 62,4n"
+   "Jr 2,2.20"
+   "Jr 31,3"
+   "Ez 16,1-43.59-63"
+   "Ez 23"
+   "Oz 1-3"
+   "Oz 2,16n.18.20nn"],
+  :evangelic ["Mt 9,15" "Mt 22,1-13" "Mt 25,1-13" "J 3,29" "J 19,34"],
+  :non-evangelic
+  ["1Kor 1,24"
+   "1Kor 11,25"
+   "2Kor 11,2"
+   "Ga 4,22-27"
+   "Ef 5,25-32"
+   "Tt 3,5nn"
+   "1J 5,6"
+   "Ap 11,17"
+   "Ap 12,1n"
+   "Ap 14,4"
+   "Ap 17,1.7"
+   "Ap 19,2.7nn"
+   "Ap 20,9"
+   "Ap 21,2.9n"
+   "Ap 22,17"]}}

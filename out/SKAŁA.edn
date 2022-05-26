@@ -1,0 +1,17 @@
+{:title "SKAŁA",
+ :addresses
+ {:historical
+  ["Wj 17,6" "Lb 20,10n" "Pwt 32,4.13" "2Sm 22,2" "2Sm 23,3"],
+  :prophetic
+  ["Iz 8,14"
+   "Iz 26,4"
+   "Iz 28,16"
+   "Iz 30,29"
+   "Iz 43,20"
+   "Iz 44,8"
+   "Iz 51,1"
+   "Jr 48,28"
+   "Ez 47,1-12"
+   "Za 14,8"],
+  :evangelic ["Mt 3,9" "Mt 7,24" "Mt 16,18" "J 7,37nn" "J 19,34"],
+  :non-evangelic ["Rz 9,33" "1Kor 10,4.12n" "1P 2,6nn"]}}

@@ -1,0 +1,25 @@
+{:title "AMEN",
+ :addresses
+ {:historical
+  ["Lb 5,22"
+   "Pwt 27,15-26"
+   "1Krl 1,36"
+   "1Krn 16,36"
+   "Ne 5,13"
+   "Ne 8,6"
+   "Tb 8,8"
+   "Jdt 15,10"],
+  :prophetic ["Iz 65,16" "Jr 11,5" "Jr 28,6"],
+  :evangelic ["Mt 5,18" "Mt 18,3" "J 1,51" "J 5,19"],
+  :non-evangelic
+  ["Rz 1,25"
+   "1Kor 14,16"
+   "2Kor 1,19-20"
+   "Ga 1,5"
+   "Hbr 13,21"
+   "2P 3,18"
+   "Ap 3,14"
+   "Ap 5,14"
+   "Ap 7,12"
+   "Ap 19,4"
+   "Ap 22,21"]}}

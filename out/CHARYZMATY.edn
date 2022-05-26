@@ -1,0 +1,41 @@
+{:title "CHARYZMATY",
+ :addresses
+ {:historical ["Rdz 11,29" "1Krl 18,12" "1Krl 22,28"],
+  :prophetic ["Iz 11,2" "Ez 3,12" "Ez 36,26n" "Jl 3,1n"],
+  :evangelic [],
+  :non-evangelic
+  ["Dz 2,4.8-11.13.15-21.33"
+   "Dz 4,31"
+   "Dz 6,8nn"
+   "Dz 7,55"
+   "Dz 8,5nn.17n"
+   "Dz 10,44nn"
+   "Dz 11,27n"
+   "Dz 13,1n"
+   "Dz 15,32"
+   "Dz 19,6"
+   "Dz 21,10n"
+   "Rz 5,5.15n"
+   "Rz 6,23"
+   "Rz 8,15.32"
+   "Rz 12,6nn"
+   "1Kor 1,7"
+   "1Kor 2,4"
+   "1Kor 7,7"
+   "1Kor 12-14"
+   "1Kor 12,1-4nn.7-8nn.10"
+   "1Kor 12,11-17.28nn"
+   "1Kor 12,31-14,1"
+   "1Kor 14,1-25.26-39nn"
+   "2Kor 12,1-4"
+   "Ga 3,2-5"
+   "Ef 1,6"
+   "Ef 4,7-12"
+   "1Tes 1,5"
+   "1Tes 5,19-22"
+   "1Tm 1,8-4,16"
+   "1Tm 4,11-12.14"
+   "2Tm 1,6"
+   "1P 4,10n"
+   "1P 4,11"
+   "1J 4,1nn.3.6"]}}

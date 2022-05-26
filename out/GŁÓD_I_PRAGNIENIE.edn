@@ -1,0 +1,39 @@
+{:title "GŁÓD_I_PRAGNIENIE",
+ :addresses
+ {:historical
+  ["Wj 23,11"
+   "Lb 11,4n.20"
+   "Pwt 8,1nn"
+   "Pwt 15,11"
+   "Pwt 30,15nn"
+   "Pwt 32,10-15.46n"
+   "Tb 4,16n"
+   "Prz 5,15"
+   "Prz 9,5"
+   "Prz 25,21"
+   "Prz 30,9"
+   "Pnp 1,4"
+   "Pnp 4,10"],
+  :prophetic
+  ["Iz 25,6"
+   "Iz 55,1nn"
+   "Iz 58,7.10"
+   "Iz 65,13"
+   "Ez 18,7.16"
+   "Oz 2,5.11.14.16"
+   "Oz 13,4-8"
+   "Am 8,11"],
+  :evangelic
+  ["Mt 4,4"
+   "Mt 10,42"
+   "Mt 25,35.42"
+   "Mk 8,1nn"
+   "Łk 1,53"
+   "Łk 6,21"
+   "Łk 10,39-42"
+   "Łk 16,19-24"
+   "J 4,1-14.32nn"
+   "J 7,37nn"
+   "J 18,11"
+   "J 19,28"],
+  :non-evangelic ["Ap 21,6" "Ap 22,17"]}}

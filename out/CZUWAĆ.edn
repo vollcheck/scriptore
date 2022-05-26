@@ -1,0 +1,22 @@
+{:title "CZUWAĆ",
+ :addresses
+ {:historical ["Prz 8,34" "Mdr 16,15"],
+  :prophetic [],
+  :evangelic
+  ["Mt 24,42-43n"
+   "Mt 25,1-13"
+   "Mt 26,41"
+   "Mk 13,33-37"
+   "Mk 14,38"
+   "Łk 6,12"
+   "Łk 21,34nn"],
+  :non-evangelic
+  ["Dz 20,28-31"
+   "Rz 13,11-14"
+   "1Kor 16,13"
+   "Ef 6,10-20"
+   "Kol 4,2"
+   "1Tes 5,1-8"
+   "1P 5,8"
+   "Ap 3,1nn"
+   "Ap 16,15"]}}

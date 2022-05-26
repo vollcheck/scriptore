@@ -1,0 +1,26 @@
+{:title "OJCZYZNA",
+ :addresses
+ {:historical
+  ["Rdz 12,1n.3.7"
+   "Rdz 15,13"
+   "Rdz 23,4"
+   "Rdz 47,30"
+   "Rdz 50,5"
+   "Ne 2,3-5"
+   "Ne 9,29nn.36n"
+   "Tb 13,9-17"],
+  :prophetic ["Iz 64,4" "Lm 1,8.18n" "Ba 4,30-5,9"],
+  :evangelic
+  ["Mt 13,54-57"
+   "Mk 13,14-19"
+   "Łk 13,33"
+   "Łk 13,34n.41.43n"
+   "Łk 21,20-23"
+   "J 4,44"],
+  :non-evangelic
+  ["Dz 22,27n"
+   "Ga 4,26"
+   "Ef 2,12.19"
+   "Flp 3,20"
+   "Hbr 11,13.14nn"
+   "Hbr 13,14"]}}

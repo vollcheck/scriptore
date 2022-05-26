@@ -1,0 +1,18 @@
+{:title "POJEDNANIE",
+ :addresses
+ {:historical ["Wj 34,6" "2Mch 1,5" "2Mch 7,33" "2Mch 8,29"],
+  :prophetic ["Jr 31,31nn" "Ez 18,31n" "Ez 36,60-63" "Oz 2,16-22"],
+  :evangelic ["Mt 5,23n"],
+  :non-evangelic
+  ["Rz 1,30"
+   "Rz 5,8-11"
+   "Rz 8,7.19-22"
+   "Rz 11,15"
+   "2Kor 5,17-20"
+   "2Kor 6,4-13"
+   "Ef 2,4.11-22"
+   "Ef 3,1-13"
+   "Ef 6,15"
+   "Kol 1,20-22"
+   "Kol 2,15"
+   "1Tm 2,5"]}}

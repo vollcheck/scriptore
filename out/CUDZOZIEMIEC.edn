@@ -1,0 +1,37 @@
+{:title "CUDZOZIEMIEC",
+ :addresses
+ {:historical
+  ["Rdz 12,7"
+   "Rdz 18,2-9"
+   "Wj 12,48n"
+   "Wj 20,10"
+   "Wj 22,20"
+   "Wj 23,9"
+   "Kpł 16,29"
+   "Kpł 19,10.34"
+   "Kpł 20,2"
+   "Kpł 23,22"
+   "Kpł 24,16"
+   "Kpł 25,23"
+   "Pwt 1,16"
+   "Sdz 19,20n"
+   "2Krl 4,8nn"
+   "1Krn 29,15"
+   "Ezd 9-10"
+   "Ne 10,31"
+   "Prz 5"],
+  :prophetic ["Iz 54,15" "Iz 56,6n" "Ez 47,22" "Am 9,12"],
+  :evangelic
+  ["Mt 23,15" "J 1,14" "J 3,7" "J 12,26" "J 14,2n" "J 16,28"],
+  :non-evangelic
+  ["Dz 2,11"
+   "Dz 6,5"
+   "Dz 10,2"
+   "Dz 13,43"
+   "Dz 18,7"
+   "2Kor 5,1"
+   "Ef 2,19"
+   "Kol 1,21"
+   "Hbr 11,13.16"
+   "1P 2,11"
+   "1J 5,19"]}}

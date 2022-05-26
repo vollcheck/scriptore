@@ -1,13 +1,28 @@
 (ns scriptore.core
-  (:gen-class)
   (:require [clojure.string :as str]
-            [clojure.pprint :refer [pprint]]
-            [clojure.data.json :as json]
-            [pdfboxing.text :as text]
+            [clojure.java.io :as io]
+            [net.cgrand.enlive-html :as html]
             [scriptore.data :refer [shorters]]))
 
-(def chapter-rx #"\n?HISTORYCZNE PROROCKIE EWANGELIE POZAEWANGELICZNE ")
-(def title-rx #"[A-ZĄĆĘŁŃÓŚŹ ]{3,}")
+(def addrs-path
+  [:table#Temat.table.table-bordered.table-condensed :tr :td])
+
+(def addrs-xf
+  (comp
+   (map html/text)
+   (remove #(or (empty? %) (< (count %) 4)))))
+
+(defn get-content [^java.io.File f]
+  (html/select
+   (-> f html/html-resource first)
+   addrs-path))
+
+(defn clean-title [^String s]
+  (if s
+    (-> s
+        (str/replace #"Temat: " "")
+        (str/replace #" Osoba:1 z 1" ""))
+    (println s)))
 
 (def start-addrs
   {:historical []
@@ -18,62 +33,29 @@
 (defn classify-addrs [addrs]
   (reduce
    (fn [m addr]
-     (let [addr (str/trim addr)
-           book (first (str/split addr #" " 2))
+     (let [book (first (str/split addr #" " 2))
            grp (get shorters book)
            current-addrs (get m grp)]
        (assoc m grp (conj current-addrs addr))))
    start-addrs
    addrs))
 
-(def addrs-xf
-  (comp
-   (mapcat (fn [line] (str/split line #";")))
-   (filter #(re-find #"[A-ZĄĆĘŁŃÓŚŹ]" %))))
+(defn save-pretty [^String filename data]
+  (spit filename (with-out-str (clojure.pprint/pprint data))))
 
-(defn process-chapter [chapter]
-  (let [[title & addrs] (str/split-lines chapter)
-        title           (str/trim (re-find title-rx title))
-        addrs           (classify-addrs (sequence addrs-xf addrs))]
-    {:title title :addresses addrs}))
+(defn parse-file
+  "Main function for parse single HTML file."
+  [filename & options]
+  (let [[title & addrs] (sequence addrs-xf (get-content filename))
+        title (clean-title title)
+        addrs (classify-addrs addrs)
+        result {:title title :addresses addrs}
+        save? (get (first options) :save)]
+    (when save?
+      (save-pretty (str "out/" title ".edn") result))
+    result))
 
-(defn main-processing [filename]
-  (let [data (-> filename
-                 (text/extract)
-                 (str/split chapter-rx))]
-    (map
-     process-chapter
-     (rest data)))) ;; omitting first (empty) element
+(def files (rest (file-seq (io/file "resources/"))))
 
-
-;; Aim to make processing faster,
-;; although the longest parts are related to I/O
-(defn main-processing-parallel [filename]
-  (let [data (-> filename
-                 (text/extract)
-                 (str/split chapter-rx))]
-    (pmap
-     process-chapter
-     (partition-all 32 (rest data)))))
-
-(defn dump-edn
-  ([data] (dump-edn data "results/dictionary.edn"))
-  ([data filename]
-   (spit filename (with-out-str (pprint data)))))
-
-(defn dump-json
-  ([data] (dump-json data "results/dictionary.json"))
-  ([data filename]
-   (spit filename (json/write-str data))))
-
-(comment
-  (def filename "resources/dufour-table-with-quotes.pdf")
-  (def filename-test "resources/dufour-table-with-quotes-cutted.pdf")
-
-  ;; Extracting text from PDF and saving it to a file
-  ;; takes the most of used time...
-  (time (text/extract filename)) ;; "Elapsed time: 6419.927246 msecs"
-  (time (main-processing filename)) ;;   "Elapsed time: 6380.597203 msecs"
-  (time (dump-edn (main-processing filename))) "Elapsed time: 15372.405544 msecs"
-
-  )
+(defn parse-files [files]
+  (map #(parse-file % {:save true}) files))

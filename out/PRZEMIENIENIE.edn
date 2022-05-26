@@ -1,0 +1,21 @@
+{:title "PRZEMIENIENIE",
+ :addresses
+ {:historical
+  ["Wj 19,9"
+   "Wj 24,15-18"
+   "Wj 34,29n.35"
+   "Pwt 5,2-5"
+   "Pwt 18,15"
+   "1Krl 19,8-18"],
+  :prophetic ["Iz 42,1"],
+  :evangelic
+  ["Mt 16,13-28"
+   "Mt 17,1-9"
+   "Mk 5,37"
+   "Mk 8,29"
+   "Mk 14,33"
+   "Łk 1,29n"
+   "Łk 9,31-32.35"
+   "Łk 24,25nn"
+   "J 1,14.17n"],
+  :non-evangelic ["2Kor 3,18" "Flp 3,21" "2P 1,16nn"]}}

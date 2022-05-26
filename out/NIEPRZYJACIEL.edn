@@ -1,0 +1,42 @@
+{:title "NIEPRZYJACIEL",
+ :addresses
+ {:historical
+  ["Rdz 3,15"
+   "Rdz 4,15.24"
+   "Rdz 15,16"
+   "Rdz 16,1-7"
+   "Rdz 22,17"
+   "Rdz 27-29"
+   "Rdz 37,4"
+   "Rdz 49,8"
+   "Wj 14,13n.30"
+   "Wj 17,16"
+   "Wj 23,4"
+   "Wj 23,22"
+   "Lb 35,15"
+   "Pwt 2,12"
+   "Pwt 7,22"
+   "Pwt 20,16nn"
+   "Pwt 23,4-8"
+   "Pwt 28,7"
+   "Sdz 2,3.20-23"
+   "1Sm 1,6n"
+   "1Sm 15"
+   "1Sm 18,10n"
+   "1Sm 19,9-17"
+   "1Mch 2,40"
+   "1Mch 3,21"
+   "Prz 24,29"
+   "Prz 25,21n"
+   "Mdr 10-19"
+   "Syr 28,1-7"],
+  :prophetic ["Jr 12,6" "Jr 18,18-23" "Mi 7,6"],
+  :evangelic
+  ["Mt 5,43-47" "Mt 6,12" "Mt 13,39" "Łk 10,19" "Łk 19,27" "Łk 23,34"],
+  :non-evangelic
+  ["Rz 5,10"
+   "Rz 12,20"
+   "Ef 2,14-16"
+   "Ef 6,11-17"
+   "Flp 3,18"
+   "1P 2,23"]}}

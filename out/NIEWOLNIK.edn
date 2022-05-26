@@ -1,0 +1,30 @@
+{:title "NIEWOLNIK",
+ :addresses
+ {:historical
+  ["Rdz 17,12"
+   "Wj 21,1-11.20-21.26n"
+   "Wj 22,2.20"
+   "Kpł 25,10.39-55"
+   "Pwt 15,13n"
+   "Pwt 21,10"
+   "Pwt 26,6nn"
+   "Sdz 3,7n"
+   "2Krl 4,1"
+   "Ne 9,35n"],
+  :prophetic ["Jr 34,8"],
+  :evangelic ["Mt 20,26-28" "J 8,32-36" "J 13,1-17" "J 14,30"],
+  :non-evangelic
+  ["Rz 5,12"
+   "Rz 6-8.16-22"
+   "Rz 7,13-24"
+   "Rz 8,3"
+   "1Kor 7,17.22n"
+   "1Kor 9,19"
+   "Ga 3,28"
+   "Ga 4,4-7.21-31"
+   "Ga 5,1"
+   "Ga 6,15"
+   "Ef 6,5-9"
+   "Flp 2,7-8"
+   "Flm 1,14-21"
+   "Hbr 2,14n"]}}

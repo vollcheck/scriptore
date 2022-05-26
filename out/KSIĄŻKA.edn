@@ -1,0 +1,31 @@
+{:title "KSIĄŻKA",
+ :addresses
+ {:historical
+  ["Wj 24,7.12"
+   "Wj 31,18"
+   "Wj 32,32n"
+   "Lb 21,14"
+   "Pwt 28,58.61"
+   "Pwt 29,20"
+   "Pwt 31,26n"
+   "Joz 1,8"
+   "Joz 8,34"
+   "Joz 10,13"
+   "Joz 24,27"
+   "2Sm 1,18"
+   "2Krl 23,2.21"
+   "2Krn 25,4"
+   "2Krn 35,12"
+   "Ezd 6,18"],
+  :prophetic
+  ["Iz 4,3"
+   "Iz 8,16.20"
+   "Iz 29,11n"
+   "Iz 30,8"
+   "Jr 36,2.7"
+   "Ez 2,8-3,3"
+   "Ez 13,9"
+   "Dn 7,10"
+   "Dn 12,1"],
+  :evangelic ["Mt 5,18" "Mk 2,26" "Łk 10,20"],
+  :non-evangelic ["Ga 3,22" "Hbr 10,7" "Ap 20,12"]}}

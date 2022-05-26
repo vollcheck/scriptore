@@ -1,0 +1,28 @@
+{:title "DRZEWO",
+ :addresses
+ {:historical
+  ["Rdz 1,11n"
+   "Rdz 2,9.16n"
+   "Rdz 3,2-6.22nn"
+   "Rdz 40,19"
+   "Wj 15,27"
+   "Pwt 21,22n"
+   "Joz 8,29"
+   "Joz 10,26"
+   "Est 2,23"
+   "Est 5,14"
+   "Hi 14,7nn"
+   "Prz 3,18"
+   "Prz 11,30"
+   "Mdr 14,7"
+   "Syr 24,12-22"],
+  :prophetic
+  ["Iz 41,19"
+   "Jr 17,7n"
+   "Ez 31,1-9.10-18"
+   "Ez 47,12"
+   "Dn 4,7nn.9-14"
+   "Oz 14,6n"],
+  :evangelic
+  ["Mt 3,10" "Mt 7,16-20" "Mt 13,31n" "Mt 24,32" "Łk 23,31"],
+  :non-evangelic ["Ga 3,13" "Kol 2,14" "1P 2,24" "Ap 2,7" "Ap 22,14"]}}

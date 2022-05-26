@@ -1,0 +1,22 @@
+{:title "KOLANO",
+ :addresses
+ {:historical
+  ["1Krl 8,14-21.22-53.54-61"
+   "1Krl 18,42"
+   "1Krl 19,18"
+   "2Krl 1,13"
+   "Ezd 9,4n"
+   "Ezd 10,1"
+   "Est 3,2"],
+  :prophetic ["Iz 45,23" "Dn 6,11"],
+  :evangelic
+  ["Mt 4,9"
+   "Mt 8,2"
+   "Mt 26,39"
+   "Mt 27,29"
+   "Mk 1,40"
+   "Mk 14,35"
+   "Łk 5,12"
+   "Łk 22,41"],
+  :non-evangelic
+  ["Dz 7,60" "Dz 9,40" "Dz 20,36" "Dz 21,5" "Rz 11,4" "Flp 2,10"]}}
