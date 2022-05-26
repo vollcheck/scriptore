@@ -11,3 +11,7 @@ Ability to make said structure available in different formats
 - JSON - as everybody else loves it
 
 Results are available in `out/` directory.
+
+----
+
+PL: Wyciąg adresów biblijnych ze Słownika Teologii Biblijnej autorstwa Xaviera Leon-Dufour
